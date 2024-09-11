@@ -16,3 +16,12 @@ h3 {
   flex-direction: column;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 767px) {
+  article {
+    flex-direction: column;
+  }
+  .paragrafh {
+    order: -1;
+  }
+}
