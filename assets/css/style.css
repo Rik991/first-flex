@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  color: #612406;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+h5 {
+  font-weight: 550;
+}
+
+p {
+  font-size: 1.7rem;
+}
+
+.card-btn {
+  border: transparent;
+  border-radius: 50px;
+  background-color: #f3df85;
+  color: #612406;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
